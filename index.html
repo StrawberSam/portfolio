@@ -1,11 +1,179 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <title>Ma première page</title>
-  </head>
-  <body>
-    <h1>Bonjour et bienvenue !</h1>
-    <p>Ceci est ma toute première page HTML.</p>
-  </body>
+    <title>Bienvenue !</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <!-- ÉCRAN 1 : Accueil (Qui je suis + About + Technos) -->
+    <section id="home">
+        <header class="section-header">
+            <h1>WHO I AM ?</h1>
+            <!-- NAV -->
+            <nav class="navbar">
+                <a href="#home">Accueil</a>
+                <a href="#dispos">Disponibilités</a>
+                <a href="#parcours">Parcours</a>
+                <a href="#projects">Projets</a>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <!-- Colonne gauche : Qui je suis -->
+                <div class="colonne">
+                    <h2>ROCHE SAMIRA</h2>
+                    <p>
+                        Développeuse débutante passionnée par le web, j’apprends à créer des interfaces modernes avec
+                        HTML, CSS et JavaScript. Mon objectif est de progresser chaque jour et de mettre mes compétences
+                        au service
+                        de projets concrets. Curieuse et créative, j’aime transformer des idées en expériences visuelles
+                        simples et efficaces.
+                    </p>
+                </div>
+                <div class="colonne">
+                    <h2>Future développeuse.</h2>
+                    <p>
+                        Actuellement en première année de fondamentaux pour être développeur web et web mobile, je
+                        voyage vers ma seconde année pour devenir Concepteur développeur d'applications. J'ai une
+                        appétence
+                        pour le
+                        frontend qui me permet de développer mes idées et ma créativité à travers des sites web et/ou
+                        applications.
+                    </p>
+                </div>
+            </article>
+
+
+            <!-- Colonne droite : About + Technos -->
+            <article>
+                <div class="colonne">
+                    <h2>About my project.</h2>
+                    <p>
+                        J'ai besoin de moi mais surtout besoin de vous. Je recherche actuellement une entreprise qui
+                        puisse me prendre en alternance. Avoir un contrat de professionnalisation est très compliqué. Je
+                        recherche donc une entreprise qui n'a pas peur d'investir dans l'humain et dans le temps.
+                    </p>
+                </div>
+                <div class="colonne">
+                    <h2>Mes technos ?</h2>
+                    <p>
+                        💻 <strong>Langages</strong> : C, Python, JavaScript, TypeScript<br>
+                        🌐 <strong>Web</strong> : HTML, CSS<br>
+                        🗄️ <strong>Base de données</strong> : MySQL<br>
+                        ⚙️ <strong>Outils</strong> : Git, GitHub<br>
+                        🐧 <strong>Systèmes</strong> : Linux, Bash <br>
+                        Moins d'un an d'expérience sur ces technos.
+                    </p>
+                </div>
+            </article>
+        </main>
+    </section>
+
+    <!-- ÉCRAN 2 : Disponibilités -->
+    <section id="dispos">
+        <header class="section-header">
+            <h1>WHO I AM ?</h1>
+            <nav class="navbar">
+                <a href="#home">Accueil</a>
+                <a href="#dispos">Disponibilités</a>
+                <a href="#parcours">Parcours</a>
+                <a href="#projects">Projets</a>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <div class="colonne">
+                    <h2>Mes disponibilités</h2>
+                    <p>• 1er décembre 2025 jusqu'à fin Novembre 2027<br>
+                        • Rythme entreprise: du lundi au jeudi.<br>
+                        • Rythme campus: Chaque vendredis et une semaine tous les deux mois.<br>
+                        • Localisation: 53/35/49<br>
+                        • Télétravail possible (1jrs/semaine)</p>
+                </div>
+                <div class="colonne">
+                    <h2>Ce que je recherche</h2>
+                    <p>• Equipe fullstack/front <br>• Mentorat <br>• Stack JS-TS/Python/HTML/CSS <br>• Participation aux features UI<br>• Création de nouvelles features</p>
+                </div>
+            </article>
+        </main>
+    </section>
+
+    <!-- ÉCRAN 3 : Parcours -->
+    <section id="parcours">
+        <header class="section-header">
+            <h1>WHO I AM ?</h1>
+            <nav class="navbar">
+                <a href="#home">Accueil</a>
+                <a href="#dispos">Disponibilités</a>
+                <a href="#parcours">Parcours</a>
+                <a href="#projects">Projets</a>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <div class="colonne">
+                    <h2>Mon parcours</h2>
+                    <p>En cours de travaux !</p>
+                </div>
+                <div class="colonne">
+                    <h2>Objectifs</h2>
+                    <p>En cours de travaux !</p>
+                </div>
+            </article>
+        </main>
+    </section>
+
+    <!-- ÉCRAN 4 : Projets -->
+    <section id="projects">
+        <header class="section-header">
+            <h1>WHO I AM ?</h1>
+            <nav class="navbar">
+                <a href="#home">Accueil</a>
+                <a href="#dispos">Disponibilités</a>
+                <a href="#parcours">Parcours</a>
+                <a href="#projects">Projets</a>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <div class="colonne">
+                    <h2>Mes projets</h2>
+                    <p>En cours de travaux !</p>
+                </div>
+                <div class="colonne">
+                    <h2>Stack utilisée</h2>
+                    <p>Détaille la techno principale de chaque projet: en cours de travaux !</p>
+                </div>
+            </article>
+        </main>
+    </section>
+
+    <!-- Barres latérales (fixes) -->
+    <div class="socials-left">
+        <a href="https://www.linkedin.com/posts/samira-roche_cv-rochesamira-activity-7333455600804134912-2xvy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFPevn8Bhed9Nt4P9v0JXUsGtgAvHffLiZ8" target="_blank" rel="noopener">CV</a>
+        <a href="https://github.com/StrawberSam" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/samira-roche/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.facebook.com/sachihidden/?locale=fr_FR" target="_blank" rel="noopener">Facebook</a>
+        <!-- Remplace par ton vrai lien Discord dès que tu l’as -->
+        <a href="#" target="_blank" rel="noopener">Discord: sam_use</a>
+    </div>
+
+    <div class="email-right">
+        <a href="mailto:s.roche53@hotmail.com">s.roche53@hotmail.com</a>
+    </div>
+</body>
+
 </html>
